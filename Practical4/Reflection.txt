@@ -1,0 +1,3 @@
+The github is really inconvenient for Chinese users. We have to use vpn to log into github.
+But we can't log into cygwin linux server when we use VPN.
+So it is very hard to use "git clone/push" command in server. It always says "Time out" or "Cant connect to github.com"
