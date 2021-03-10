@@ -17,6 +17,6 @@ y= 3<4
 z= (x and not y) or (y and not x)
 print(z)
 
-w= x!=y
-print("w=",w)
-print("z=",z)
+w=( x!=y)
+print("w="+str(w))
+print("z="+str(z))
