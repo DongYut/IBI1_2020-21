@@ -1,0 +1,10 @@
+My question:
+At 2020-03-31, how difference is the propotion of death in China to that in US? Why?
+
+Question is addressed from line 49.
+
+The results shows that the death propotion of China is about 4% while in US it is 1%. 
+We can infer that the overall medical level in two countries may cause the differences.
+In China, the government had more strict rules for epidemic control but the social medical level is low comparing to US.
+Also, different races may have differences. The virus' lethality may be higher to yellow race.
+So the number of patients in China is less than US, while the death propotion is higher.
