@@ -1,3 +1,8 @@
+# 1. Read the file and import apps
+# 2. Choose the column that starts with Afghanistan
+# 3. Create new cases that has data 'World'
+# 4. Do the task work follow the guide
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
