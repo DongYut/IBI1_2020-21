@@ -1,3 +1,8 @@
+# 1.Import os and re, save the dic of DNA-Protein
+# 2.Define the funtion of translating DNA as a new command
+# 3.Same as previous work read the target DNA
+# 4.Translate them and store in a new document (the name is 'input')
+
 
 import os 
 import re
@@ -26,7 +31,7 @@ def dp(seq):
         a=(codon[code[i]])
         Peptide=Peptide+a
         i=i+1
-    return Peptide
+    return Peptide                         # define a new function to translate
 os.chdir('Practical8')
 fn=input('The name of file is (do not contain file type): ')+'.fa'
 print('The name of file will be '+fn)
@@ -71,7 +76,7 @@ for line in rewrite3:
         title=re.sub(r'.+',name2,line)
     else:
         if 'T' in line:
-          line=dp(line)+'\n'
+          line=dp(line)+'\n'                     # all same as previous work, but add this line to translate DNA
           output3=output3+title+line
 final=open(fn,'w')
 final.write(output3)
