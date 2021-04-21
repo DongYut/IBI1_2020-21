@@ -1,0 +1,9 @@
+The distance from human and mouse protein is 1091. The percentage of identical amino acids is 89.68609865470853%.
+The distance from human and random protein is -250. The percentage of identical amino acids is 5.829596412556048%.
+The distance from mouse and random protein is -250. The percentage of identical amino acids is 6.278026905829592%.
+
+Interpretation:
+  The human protein has only 10% difference from mouse protein. Which states that two species have a relative close relationship.
+The distance from human, mouse protein to random protein is same, -250. I thinks it is essential but I can't give professional ideas about it.
+  Every evidence shows that human has a close relationship in biology with mouse. However there's still 1091 distance in SOD2 proteins.
+The two species are close, but when coming to experiment, we can't predict human reaction all from mouses since many differences exist.
