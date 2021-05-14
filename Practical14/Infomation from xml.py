@@ -13,16 +13,11 @@ for term in terms:
     is_as=term.getElementsByTagName('is_a')
     for is_a in is_as:
         dics[is_a.firstChild.data].append(ids[0].firstChild.data)
-    dics[ids[0].firstChild.data]=list
 def count(b):               #Define a new function to count the childnode number
     for i in range(len(b)):                      # b is the list  from next function, the first-level childnode of XX-assosiated
-        if len(dics[b[i]])==0:
             if b[i] not in listf:            #This is to prevent reptition of same childnode GO:XXXXXX
-                listf.append(b[i])                 #If a first-level childnode doesn't have childnode, then simply add it into the listf
-        else:
-            if b[i] not in listf:                 
-                listf.append(b[i])
-            count(dics[b[i]])                 #If a first-level childnode have childnode, then repete the function itself, to count all the childnodes.
+                listf.append(b[i])                 
+                count(dics[b[i]])                 
     return len(listf)             #The length of listf will be the number of childnodes
 
 def countnumb(a):
@@ -41,7 +36,7 @@ RNA=countnumb('RNA')
 listf=[]
 Protein=countnumb('protein')
 listf=[]
-CH=countnumb('carbohydrate')             # I am interested in carbohydrate
+CH=countnumb('carbohydrate')
 
 
 import matplotlib.pyplot as plt
