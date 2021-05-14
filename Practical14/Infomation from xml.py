@@ -41,7 +41,7 @@ RNA=countnumb('RNA')
 listf=[]
 Protein=countnumb('protein')
 listf=[]
-CH=countnumb('carbohydrate')
+CH=countnumb('carbohydrate')             # I am interested in carbohydrate
 
 
 import matplotlib.pyplot as plt
